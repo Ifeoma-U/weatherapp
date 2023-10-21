@@ -29,8 +29,8 @@ body{
     background: #ebfffc;
     color: #555;
     padding: 10px 25px;
-    height: 60px;
-    border-radius: 30px;
+    height: 45px;
+    border-radius: 25px;
     flex: 1;
     margin-right: 16px;
     font-size: 18px;
@@ -48,22 +48,37 @@ body{
     width: 16px;
 }
 .weather-icon{
-    width: 170px;
-    margin-top: 30px;
+    width: 80px;
+    margin-top: 30px; 
 }
 .weather h1{
-    font-size: 80px;
+    font-size: 30px;
     font-weight: 500;
+    margin-left: -15px;
 }
 .weather h2{
-    font-size: 45px;
+    font-size: 25px;
     font-weight: 400;
-    margin-top: -10px;
+    margin-top: 10px;
+}
+.weather{
+    display: flex;
+}
+.header{
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+    width: 50%;
+    grid-template-columns: 1;
+    grid-template-rows: 3;
+
 }
 .details{
-    display: flex;
+    display: grid;
+    width: 50%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    gap: 0.5rem;
     padding: 0 20px;
     margin-top: 50px;
 }
@@ -73,16 +88,17 @@ body{
     text-align: left;
 }
 .col img{
-    width: 40px;
+    width: 25px;
     margin-right: 10px;
 }
 .humidity, .wind{
-    font-size: 28px;
+    font-size: 18px;
     margin-top: -6px;
 }
-.weather{
+/*#weath{
     display: none;
-}
+}*/
+
 .error{
     text-align: left;
     margin-left: 10px;
