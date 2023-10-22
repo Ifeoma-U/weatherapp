@@ -127,9 +127,6 @@ body{
         height: 40px;
         cursor: pointer;
     }
-   .search{
-       width: 70%;
-   }
    .search button img{
     width: 20px;
     }
