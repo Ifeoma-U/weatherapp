@@ -130,4 +130,7 @@ body{
    .search{
        width: 70%;
    }
+   .search button img{
+    width: 20px;
+    }
 }
